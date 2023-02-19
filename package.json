@@ -3,8 +3,9 @@
   "version": "2.4.2",
   "description": "Node.js based chromium devtools for converting SVG files to Skia Vector Icon files",
   "main": "./lib/skiafy.js",
+  "type": "module",
   "bin": {
-    "skiafy": "./bin/skiafy"
+    "skiafy": "./bin/skiafy.js"
   },
   "directories": {
     "bin": "./bin",
@@ -12,7 +13,6 @@
   },
   "dependencies": {
     "jsdom": "*",
-    "svgo": "*",
     "parse-color": "*"
   },
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhsoft88/skiafy.git"
+    "url": "git+https://github.com/fallaciousreasoning/skiafy.git"
   },
   "keywords": [
     "skiafy",
@@ -36,5 +36,11 @@
   "bugs": {
     "url": "https://github.com/zhsoft88/skiafy/issues"
   },
-  "homepage": "https://github.com/zhsoft88/skiafy#readme"
+  "contributors": [
+    {
+      "name": "fallaciousreasoning",
+      "url": "https://github.com/fallaciousreasoning"
+    }
+  ],
+  "homepage": "https://github.com/fallaciousreasoning/skiafy#readme"
 }
