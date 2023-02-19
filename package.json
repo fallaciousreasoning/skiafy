@@ -12,8 +12,8 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "jsdom": "*",
-    "parse-color": "*"
+    "jsdom": "21.1.0",
+    "parse-color": "1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,7 +29,8 @@
     "chromium",
     "skia",
     "vector",
-    "icon"
+    "icon",
+    "brave"
   ],
   "author": "zhsoft88",
   "license": "MIT",
